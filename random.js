@@ -9,15 +9,6 @@ makeCircle (100,20,9,"purple", 0.25)
 makeRect (100,75,55, 25,"navy", 0.9)
 makeCircle (100,100,25,"indigo", 0.9)
 makeCircle (100,75,1,"black", 1)
-}
-
-
-// Fill in this function so that it draws something using SVG shapes!
-// You need to use at least 3 different types of shape.
-// Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
-function createSecondScene() {
-makeCircle (100,25,9,"red", 0.25)
-makeCircle (100,35,9,"red", 0.9)
 makeRect (150,150,50,50,"blue", 0.7)
 makeLine (100,90, 100, 75,"blue", 2, 0.9)
 }
@@ -26,8 +17,23 @@ makeLine (100,90, 100, 75,"blue", 2, 0.9)
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
+function createSecondScene() {
+makeRect (0, 0, 200, 100,"navy", 0.25)
+makePolygon("100,20 100,50 30,30", "orange", 0.15)
+makeCircle (100,20,9,"orange", 0.9)
+}
+
+
+// Fill in this function so that it draws something using SVG shapes!
+// You need to use at least 3 different types of shape.
+// Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
-    
+makeCircle (100,20,9,"purple", 0.25)
+makeRect (100,75,55, 25,"navy", 0.9)
+makeCircle (100,100,25,"indigo", 0.9)
+makeCircle (100,75,1,"black", 1)
+makeRect (150,150,50,50,"blue", 0.7)
+makeLine (100,90, 100, 75,"blue", 2, 0.9)   
 }
 
 
